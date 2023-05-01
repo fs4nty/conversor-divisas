@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ejercicio 1</title>
+    <h1 style="text-align: center;">Conversor Divisas</h1>
+</head>
+<body>
+    <script src="codigo.js"></script>
+    <center>
+    <b>Cantidad: </b> <input type="number" id="cantidad" value="0">
+    <br>
+    <br>
+    <b>de: </b><select id="de">
+        <option value="1">Peso</option>
+        <option value="2">Euros</option>
+        <option value="3">Dolar</option>
+        <option value="4">Liras</option>
+        <option value="5">BTC</option>
+        <option value="6">Monero</option>
+    </select>
+    <b> a: </b><select id="a">
+        <option value="1">Peso</option>
+        <option value="2">Euros</option>
+        <option value="3">Dolar</option>
+        <option value="4">Liras</option>
+        <option value="5">BTC</option>
+        <option value="6">Monero</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="Convertir()">Convertir</button>
+    <br>
+    <br>
+    <h2><b>Resultado: </b> <span id="resultado"></span></h2>
+    </center>
+</body>
+</html>

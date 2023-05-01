@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+    background: #fff;
+}
+
+button {
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+button:hover {
+    color: #fff;
+    background: black;
+}
